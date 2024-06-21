@@ -73,6 +73,29 @@ body {
 .visual {
   margin: 30px 0;
 }
+
+.reaction {
+  background-color: #fff7f5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.memory {
+  background-color: #fefcf1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.verbal {
+  background-color: #f2fbf8;
+  display: flex;
+  justify-content: space-between;
+}
+.visual {
+  background-color: #f3f3ff;
+  display: flex;
+  justify-content: space-between;
+}
 button {
   padding: 8px 20px;
   border-radius: 15px;
