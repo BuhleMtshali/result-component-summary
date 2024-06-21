@@ -8,17 +8,43 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  max-width: 1440px;
+  height: auto;
 }
 .left-container {
-  background: linear-gradient(
-    to bottom,
-    hsl(252, 100%, 67%),
-    hsl(241, 81%, 54%)
-  );
-
+  background-color: #6140fe;
   text-align: center;
   padding: 10px;
 }
+
+.score-circle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 auto;
+  color: white;
+  background-color: #4a27d0;
+  text-align: center;
+  padding: 5px;
+}
+
+.score {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.grey-text {
+  color: #8274ff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.grey-text {
+  margin-top: 0;
+}
+
 .right-container {
   background-color: aqua;
   padding: 10px;
