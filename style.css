@@ -4,3 +4,16 @@
 body {
   font-family: "Hanken Grotesk", sans-serif;
 }
+.container {
+  display: flex;
+  justify-content: center;
+}
+.left-container {
+  background-color: var(--bg-color);
+  text-align: center;
+  padding: 10px;
+}
+.right-container {
+  background-color: aqua;
+  padding: 10px;
+}
