@@ -144,3 +144,12 @@ img {
   font-size: 16px;
   padding-right: 70px;
 }
+.dark-score-text {
+  color: #676679;
+  font-weight: 700;
+  font-size: 15px;
+}
+.grey-score-text {
+  color: #a9a2a4;
+  font-size: 15px;
+}
