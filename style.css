@@ -9,13 +9,15 @@ body {
   display: flex;
   justify-content: center;
   max-width: 1440px;
-  height: auto;
+
   flex-wrap: wrap;
 }
 .left-container {
   background-color: #6140fe;
   text-align: center;
-  padding: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
   border: none;
   border-radius: 20px;
 }
@@ -60,41 +62,52 @@ body {
   color: #acaaff;
   font-size: 15px;
   margin-top: 0;
+  text-align: center;
+  margin-bottom: 0;
 }
 .right-container {
-  padding: 15px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 15px;
 }
 .summary-heading {
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 .reaction,
 .memory,
 .verbal,
 .visual {
-  margin: 30px 0;
+  margin: 10px 0;
+  border: none;
+  border-radius: 20px;
 }
 
 .reaction {
   background-color: #fff7f5;
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 
 .memory {
   background-color: #fefcf1;
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 
 .verbal {
   background-color: #f2fbf8;
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 .visual {
   background-color: #f3f3ff;
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 button {
   padding: 8px 20px;
@@ -103,4 +116,5 @@ button {
   font-size: 15px;
   background-color: #303b59;
   color: white;
+  width: 100%;
 }
